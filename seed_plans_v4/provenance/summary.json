@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "completed": 500,
+  "requested": 500,
+  "errors": [],
+  "groups": {
+    "1": {
+      "p2_no_l2_cycles": 3124793.73,
+      "old_p3_l2_cycles": 3111299.03,
+      "p3_l2_cycles": 3091711.93,
+      "problem3_speedup": 1.0286493834577177,
+      "old_problem3_speedup": 1.0205227400530306,
+      "same_plan_l2_speedup": 1.0086077018209263,
+      "old_same_plan_l2_speedup": 1.0086109378749817,
+      "l2_byte_hit_rate": 0.09559947177774615,
+      "improvement_vs_old": 1.0080391402303963,
+      "case_count": 100,
+      "improved": 45,
+      "worsened": 0,
+      "ratio_of_mean": 1.0107001560135649
+    },
+    "2": {
+      "p2_no_l2_cycles": 1514144.92,
+      "old_p3_l2_cycles": 1509447.05,
+      "p3_l2_cycles": 1503805.89,
+      "problem3_speedup": 1.0111554553921167,
+      "old_problem3_speedup": 1.0054231094302077,
+      "same_plan_l2_speedup": 1.0009984735194752,
+      "old_same_plan_l2_speedup": 1.0004955442169323,
+      "l2_byte_hit_rate": 0.15415634003067835,
+      "improvement_vs_old": 1.0056445097735678,
+      "case_count": 100,
+      "improved": 35,
+      "worsened": 0,
+      "ratio_of_mean": 1.0068752423891623
+    },
+    "3": {
+      "p2_no_l2_cycles": 1120963.03,
+      "old_p3_l2_cycles": 1114642.89,
+      "p3_l2_cycles": 1018315.62,
+      "problem3_speedup": 1.0371620572883578,
+      "old_problem3_speedup": 1.00846996568384,
+      "same_plan_l2_speedup": 1.0048202144338183,
+      "old_same_plan_l2_speedup": 1.0023562502804777,
+      "l2_byte_hit_rate": 0.20828256122202962,
+      "improvement_vs_old": 1.028557444878114,
+      "case_count": 100,
+      "improved": 46,
+      "worsened": 0,
+      "ratio_of_mean": 1.1008011740014358
+    },
+    "4": {
+      "p2_no_l2_cycles": 920596.21,
+      "old_p3_l2_cycles": 916287.39,
+      "p3_l2_cycles": 773675.56,
+      "problem3_speedup": 1.0616630359614547,
+      "old_problem3_speedup": 1.0108506100476615,
+      "same_plan_l2_speedup": 1.0082323777941276,
+      "old_same_plan_l2_speedup": 1.0055856682931008,
+      "l2_byte_hit_rate": 0.21609989152985648,
+      "improvement_vs_old": 1.0506661419502228,
+      "case_count": 100,
+      "improved": 41,
+      "worsened": 0,
+      "ratio_of_mean": 1.1898995620334705
+    },
+    "5": {
+      "p2_no_l2_cycles": 814032.64,
+      "old_p3_l2_cycles": 807840.49,
+      "p3_l2_cycles": 638940.11,
+      "problem3_speedup": 1.087221649089695,
+      "old_problem3_speedup": 1.0184686007069095,
+      "same_plan_l2_speedup": 1.0192886206873448,
+      "old_same_plan_l2_speedup": 1.0147745253958342,
+      "l2_byte_hit_rate": 0.26278944025052153,
+      "improvement_vs_old": 1.0684324367260487,
+      "case_count": 100,
+      "improved": 41,
+      "worsened": 0,
+      "ratio_of_mean": 1.2740359029894053
+    }
+  },
+  "wall_seconds": 2378.7553472,
+  "environment": {
+    "python": "3.12.9 | packaged by conda-forge | (main, Mar  4 2025, 22:37:18) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "workers": 6
+  }
+}
